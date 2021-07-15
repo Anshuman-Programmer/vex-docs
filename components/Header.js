@@ -19,7 +19,7 @@ function Header() {
         <Icon name="menu" size="2xl"/>
       </Button>
       <Icon name="description" size="5xl" color="orange" className="cursor-pointer"/>
-      <h1 className="text-gray-700 text-2xl pl-2 cursor-pointer">Docs</h1>
+      <h1 className="text-gray-700 font-medium text-2xl pl-2 cursor-pointer">Docs</h1>
 
       <div className="max-w-2xl mx-auto flex flex-grow items-center px-5 py-2 bg-gray-100 text-gray-600 rounded-lg focus-within:text-gray-800 focus-within:shadow-md">
         <Icon name="search" size="3xl" color="gray"/>
