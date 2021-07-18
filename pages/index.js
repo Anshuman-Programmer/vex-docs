@@ -36,6 +36,7 @@ export default function Home() {
 
     setInput('')
     setShowModal(false)
+    window.location.reload(true)
   }
 
   const modal = (
@@ -115,9 +116,9 @@ export default function Home() {
             <p className="mr-12">Date Created</p>
             <Icon name="folder" size="3xl" color="gray"/>
           </div>
-          {snapShot?.docs.map((doc)=>(
+          {snapShot?.docs.length ? snapShot?.docs.map((doc)=>(
             <DocumentRow key={doc.id} id={doc.id} fileName={doc.data().fileName} date={doc.data().timestamp}/>
-          ))}
+          )): <h1 className="flex justify-center text-gray-700 font-medium mt-8 text-center">No text documents yet<br/>Click the plus sheet to create a new Doc</h1>}
         </div>
       </section>
 

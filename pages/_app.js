@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
     rel="stylesheet"
     />
     <link rel="icon" href="/logo.png" />
-    <title>Vexcode Docs</title>
+    <title>Vex Docs</title>
     </Head>
     <Provider session={pageProps.session}>
       <Component {...pageProps} /> 

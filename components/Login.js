@@ -6,7 +6,7 @@ import {signIn} from "next-auth/client"
 function Login() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Image src="/logo.png" height="300" width="550" objectFit="contain"/>
+      <Image src="/vexdocs.png" height="300" width="550" objectFit="contain"/>
       <Button className="w-44 mt-10" color="orange" buttonType="filled" ripple="light" onClick={signIn}>
         Login
       </Button>
