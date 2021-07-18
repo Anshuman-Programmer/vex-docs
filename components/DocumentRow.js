@@ -18,7 +18,7 @@ function DocumentRow({ id, fileName, date}) {
     }).catch((error) => {
         console.error("Error removing document: ", error);
     });
-    window.location.reload(true)
+
 
   }
 
