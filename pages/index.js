@@ -36,7 +36,6 @@ export default function Home() {
 
     setInput('')
     setShowModal(false)
-    window.location.reload(true)
   }
 
   const modal = (
